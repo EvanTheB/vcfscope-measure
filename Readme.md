@@ -16,6 +16,7 @@ The app unpacks a tar bundle, which contains:
 * reportable range files, as defined by Garvan
 * RTG executable
 
+```
     ├── gold_standard
     │   ├── calls-2.19.vcf.gz
     │   ├── calls-2.19.vcf.gz.tbi
@@ -49,6 +50,7 @@ The app unpacks a tar bundle, which contains:
     │   └── reportable_range.bed
     └── rtg-tools
         └── RTG.jar
+```
 
 ## R package dependencies
 * This has been tested extensively with R 3.2.0, and more recently, but to less extent, R 3.2.3. The R package
